@@ -37,6 +37,10 @@ const userSchema=new mongoose.Schema({
             required:true
         }
     }],
+    userType:{
+        type:String,
+        default:'user'
+    },
     pic:{
         type:String,
         default:"https://drgsearch.com/wp-content/uploads/2020/01/no-photo.png" },
